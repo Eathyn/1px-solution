@@ -1,0 +1,25 @@
+.line {
+	background-color: #000000;
+	margin: 10px 0;
+}
+
+.line-1 {
+	height: 1px;
+}
+
+.line-2 {
+	height: 1px;
+	transform-origin: 50% 0;
+}
+
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+	.line-2 {
+		transform: scaleY(calc(1 / 2));
+	}
+}
+
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+	.line-2 {
+		transform: scaleY(calc(1 / 3));
+	}
+}
