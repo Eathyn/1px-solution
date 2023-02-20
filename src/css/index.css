@@ -1,0 +1,6 @@
+.line {
+	background-color: #000;
+	margin: 10px 0;
+	height: 1px;
+	width: 375px; /* iPhone-6 尺寸下只显示一半，说明此时逻辑像素与物理像素相等 */
+}
